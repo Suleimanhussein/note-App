@@ -1,0 +1,21 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm  npm install --prefix  frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Suleimanhussein/note-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Suleimanhussein/note-App/issues"
+  },
+  "homepage": "https://github.com/Suleimanhussein/note-App#readme",
+  "description": ""
+}
