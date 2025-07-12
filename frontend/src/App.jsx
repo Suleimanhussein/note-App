@@ -1,10 +1,11 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
-import NoteDetails from './pages/noteDetails'
+import NoteDetails from './pages/NoteDetails'  // ✅ Case fixed
 import CreatePage from './pages/CreatePage'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+
 const App = () => {
   return (
     <div className=' bg-amber-100'>
